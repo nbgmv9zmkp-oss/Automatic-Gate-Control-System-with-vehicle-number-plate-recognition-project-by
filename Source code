@@ -1,0 +1,21 @@
+Automatic-Gate-Control-System/
+│
+├── main.py                 # Main program
+├── plate_detection.py      # Detects vehicle number plates
+├── plate_recognition.py    # Reads text from number plates
+├── database.py             # Checks authorized vehicles
+├── gate_control.py         # Controls servo/gate motor
+├── sms.py                  # Sends SMS using GSM module
+├── camera.py               # Captures images from camera
+├── config.py               # System settings
+├── requirements.txt        # Python libraries
+├── README.md
+│
+├── database/
+│   └── vehicles.db
+│
+├── images/
+│   └── authorized_plates/
+│
+└── logs/
+    └── access_log.txt
